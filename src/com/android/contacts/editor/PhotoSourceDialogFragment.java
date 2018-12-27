@@ -95,7 +95,8 @@ public class PhotoSourceDialogFragment extends DialogFragment {
         // Build the AlertDialog
         final TextView title = (TextView) View.inflate(getActivity(), R.layout.dialog_title, null);
         title.setText(R.string.menu_change_photo);
-        final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity()
+               , R.style.ContactsAlertDialogTheme);
         builder.setCustomTitle(title);
         builder.setItems(items, clickListener);
         builder.setNegativeButton(android.R.string.cancel, /* listener =*/ null);

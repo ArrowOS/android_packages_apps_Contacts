@@ -162,7 +162,7 @@ public class ExportDialogFragment extends DialogFragment {
         };
         final TextView title = (TextView) View.inflate(getActivity(), R.layout.dialog_title, null);
         title.setText(R.string.dialog_export);
-        return new AlertDialog.Builder(getActivity())
+        return new AlertDialog.Builder(getActivity(), R.style.ContactsAlertDialogTheme)
                 .setCustomTitle(title)
                 .setSingleChoiceItems(adapter, -1, clickListener)
                 .create();

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60"
+    android:tint="@color/material_star_pink" >
+    <group
+            android:translateX="-73.176193"
+            android:translateY="-117.71072">
+        <path
+            android:fillColor="#000000"
+            android:strokeWidth="0.30393162"
+            android:pathData="M 132.80953,147.71072 a 29.633333,29.633333 0 0 1 -29.63334,29.63334 29.633333,29.633333 0 0 1 -29.63333,-29.63334 29.633333,29.633333 0 0 1 29.63333,-29.63333 29.633333,29.633333 0 0 1 29.63334,29.63333 z" />
+    </group>
+</vector>

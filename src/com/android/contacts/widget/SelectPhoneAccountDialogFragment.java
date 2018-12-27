@@ -185,7 +185,8 @@ public class SelectPhoneAccountDialogFragment extends DialogFragment {
             }
         };
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity()
+                , R.style.ContactsAlertDialogTheme);
         ListAdapter selectAccountListAdapter = new SelectAccountListAdapter(
                 builder.getContext(),
                 R.layout.select_account_list_item,

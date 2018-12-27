@@ -47,6 +47,7 @@
     <Button
         android:id="@+id/add_account_button"
         style="?android:attr/buttonBarButtonStyle"
+        android:textColor="@color/quantum_black_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingStart="24dp"

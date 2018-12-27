@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingTop="@dimen/first_card_marginTop"
+        android:background="@color/background_primary"
         android:id="@+id/card_container" >
 
         <com.android.contacts.quickcontact.ExpandingEntryCardView

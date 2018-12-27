@@ -90,7 +90,8 @@ public final class SelectAccountDialogFragment extends DialogFragment
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
-        final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity()
+               , R.style.ContactsAlertDialogTheme);
         final Bundle args = getArguments();
 
         mAccountsAdapter = new AccountsListAdapter(builder.getContext());

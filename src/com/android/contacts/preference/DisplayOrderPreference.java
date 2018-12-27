@@ -85,6 +85,7 @@ public final class DisplayOrderPreference extends ListPreference {
     // UX recommendation is not to show cancel button on such lists.
     protected void onPrepareDialogBuilder(Builder builder) {
         super.onPrepareDialogBuilder(builder);
+        builder.getContext().setTheme(R.style.ContactsAlertDialogTheme);
         builder.setNegativeButton(null, null);
     }
 }

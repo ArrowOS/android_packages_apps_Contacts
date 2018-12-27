@@ -101,7 +101,7 @@ public class AccountSelectionUtil {
 
         // Wrap our context to inflate list items using correct theme
         final Context dialogContext = new ContextThemeWrapper(
-                activity, android.R.style.Theme_Light);
+                activity, android.R.style.Theme_DeviceDefault);
         final LayoutInflater dialogInflater = (LayoutInflater)dialogContext
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         final ArrayAdapter<AccountWithDataSet> accountAdapter =

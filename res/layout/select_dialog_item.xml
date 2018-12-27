@@ -39,6 +39,7 @@
         android:gravity="start|center_vertical"
         android:textAlignment="viewStart"
         android:textAppearance="?android:textAppearanceListItem"
+        android:textColor="@color/quantum_black_text"
         android:textSize="16sp"/>
 
     <TextView
@@ -49,6 +50,6 @@
         android:gravity="center_vertical|start"
         android:textAlignment="viewStart"
         android:textAppearance="?android:textAppearanceListItemSecondary"
-        android:textColor="?android:textColorSecondary"
+        android:textColor="@color/quantum_black_secondary_text"
         />
 </LinearLayout>

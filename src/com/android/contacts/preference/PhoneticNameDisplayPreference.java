@@ -88,6 +88,7 @@ public final class PhoneticNameDisplayPreference extends ListPreference {
     @Override
     protected void onPrepareDialogBuilder(Builder builder) {
         super.onPrepareDialogBuilder(builder);
+        builder.getContext().setTheme(R.style.ContactsAlertDialogTheme);
         builder.setNegativeButton(null, null);
     }
 }

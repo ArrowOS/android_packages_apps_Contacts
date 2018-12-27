@@ -30,7 +30,7 @@
 
         <ImageView
                 android:src="@drawable/quantum_ic_assistant_vd_theme_24"
-                android:tint="@color/editor_icon_color"
+                android:tint="@color/dialtacts_secondary_text_color"
                 android:layout_width="@dimen/quickcontact_collapse_icon_size"
                 android:layout_height="@dimen/quickcontact_collapse_icon_size"
                 android:layout_margin="@dimen/quickcontact_collapse_image_padding"

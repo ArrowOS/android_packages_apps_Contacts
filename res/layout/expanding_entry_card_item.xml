@@ -18,6 +18,7 @@
     class="com.android.contacts.quickcontact.ExpandingEntryCardView$EntryView"
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/SelectableItem"
+    android:background="@color/expanding_entry_card_background_color"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingStart="@dimen/expanding_entry_card_item_padding_start"
