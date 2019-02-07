@@ -300,9 +300,9 @@ public class DrawerFragment extends Fragment implements AccountsListener {
     private void applyTopInset(int insetTop) {
         // set height of the scrim
         mScrimDrawable.setIntrinsicHeight(insetTop);
-        mDrawerListView.setPadding(mDrawerListView.getPaddingLeft(),
+        /*mDrawerListView.setPadding(mDrawerListView.getPaddingLeft(),
                 insetTop, mDrawerListView.getPaddingRight(),
-                mDrawerListView.getPaddingBottom());
+                mDrawerListView.getPaddingBottom());*/
     }
 
     public interface DrawerFragmentListener {
