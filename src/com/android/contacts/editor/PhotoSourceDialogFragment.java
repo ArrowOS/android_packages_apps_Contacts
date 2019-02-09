@@ -24,6 +24,8 @@ import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import androidx.appcompat.app.AlertDialog;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import com.android.contacts.R;
@@ -67,11 +69,6 @@ public class PhotoSourceDialogFragment extends DialogFragment {
         final ArrayList<ChoiceListItem> choices =
                 PhotoActionPopup.getChoices(getActivity(), photoMode);
 
-        // Prepare the AlertDialog items and click listener
-        final CharSequence[] items = new CharSequence[choices.size()];
-        for (int i = 0; i < items.length; i++) {
-            items[i] = choices.get(i).toString();
-        }
         final OnClickListener clickListener = new OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
@@ -98,7 +95,9 @@ public class PhotoSourceDialogFragment extends DialogFragment {
         final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity()
                , R.style.ContactsAlertDialogTheme);
         builder.setCustomTitle(title);
-        builder.setItems(items, clickListener);
+        final ListAdapter adapter = new ArrayAdapter<ChoiceListItem>(getActivity(),
+                R.layout.select_dialog_item_single, choices);
+        builder.setAdapter(adapter, clickListener);
         builder.setNegativeButton(android.R.string.cancel, /* listener =*/ null);
         return builder.create();
     }

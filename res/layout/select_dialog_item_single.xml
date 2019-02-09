@@ -14,15 +14,14 @@
      limitations under the License.
 -->
 
-<TextView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingStart="24dp"
-    android:paddingEnd="24dp"
-    android:textSize="20sp"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
     android:textColor="@color/contacts_text_color"
-    android:textAlignment="viewStart"
-    android:fontFamily="sans-serif-medium"
-    android:ellipsize="end"
-/>
+    android:gravity="center_vertical"
+    android:paddingStart="24dp"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:ellipsize="marquee" />
