@@ -90,8 +90,7 @@ public class DatePickerDialog extends AlertDialog implements OnClickListener,
             int monthOfYear,
             int dayOfMonth,
             boolean yearOptional) {
-        // Don't pass a theme id. Instead use the default alert dialog theme.
-        this(context, /* themeId = */ 0, callBack, year, monthOfYear, dayOfMonth,
+        this(context, /* themeId = */ R.style.ContactsAlertDialogTheme, callBack, year, monthOfYear, dayOfMonth,
                 yearOptional);
     }
 
@@ -121,7 +120,7 @@ public class DatePickerDialog extends AlertDialog implements OnClickListener,
 
         mTitleDateFormat = DateFormat.getDateInstance(DateFormat.FULL);
         mTitleNoYearDateFormat = DateUtils.getLocalizedDateFormatWithoutYear(getContext());
-        updateTitle(mInitialYear, mInitialMonth, mInitialDay);
+        //updateTitle(mInitialYear, mInitialMonth, mInitialDay);
 
         setButton(BUTTON_POSITIVE, context.getText(R.string.date_time_set),
                 this);
@@ -147,7 +146,7 @@ public class DatePickerDialog extends AlertDialog implements OnClickListener,
 
     @Override
     public void onDateChanged(DatePicker view, int year, int month, int day) {
-        updateTitle(year, month, day);
+        //updateTitle(year, month, day);
     }
 
     private void updateTitle(int year, int month, int day) {

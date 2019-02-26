@@ -25,4 +25,5 @@
     android:paddingRight="6dip"
     android:paddingStart="6dip"
     android:paddingEnd="6dip"
+    android:background="@color/navigation_drawer_background_color"
 />
