@@ -173,10 +173,10 @@
         <item name="android:fastScrollTextColor">@android:color/white</item>
     </style>
 
-    <style name="PopupMenuStyle" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+    <style name="PopupMenuStyle" parent="@android:style/Theme.DeviceDefault.Dialog">
     </style>
 
-    <style name="PopupMenuStyleAppCompat" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+    <style name="PopupMenuStyleAppCompat" parent="@android:style/Theme.DeviceDefault.Dialog">
     </style>
 
     <style name="ContextPopupMenuStyle" parent="@android:style/Widget.PopupMenu">
@@ -291,14 +291,14 @@
     <style name="NonPhoneActivityTheme" parent="@android:Theme.Translucent.NoTitleBar">
     </style>
 
-    <style name="NonPhoneDialogTheme" parent="@android:Theme.DeviceDefault.Light.Dialog">
+    <style name="NonPhoneDialogTheme" parent="@android:Theme.DeviceDefault.Dialog">
     </style>
 
-    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth">
+    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog.MinWidth">
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
-    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth">
+    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar.MinWidth">
         <item name="android:windowCloseOnTouchOutside">true</item>
         <item name="android:textColorPrimary">@color/primary_text_color</item>
         <item name="android:textColorSecondary">@color/secondary_text_color</item>
@@ -306,7 +306,7 @@
         <item name="android:colorAccent">@color/primary_color</item>
     </style>
 
-    <style name="SelectableItem" parent="@android:style/Theme.DeviceDefault.Light">
+    <style name="SelectableItem" parent="@android:style/Theme.DeviceDefault">
         <item name="android:background">@color/background_primary</item>
     </style>
 
@@ -345,7 +345,7 @@
 
     <!-- Inherit from Theme.Material.Light.Dialog instead of Theme.Material.Light.Dialog.Alert
         since the Alert dialog is private. They are identical anyway. -->
-    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog">
         <item name="android:colorAccent">@color/primary_color</item>
         <item name="android:background">@color/background_primary</item>
     </style>
@@ -461,7 +461,7 @@ background and text color. See also android:style/Widget.Holo.TextView.ListSepar
         <item name="android:textColor">#737373</item>
     </style>
 
-    <style name="ListViewStyle" parent="@android:style/Widget.Material.Light.ListView">
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
         <item name="android:overScrollMode">always</item>
         <item name="android:background">@color/background_primary</item>
     </style>
@@ -478,7 +478,7 @@ background and text color. See also android:style/Widget.Holo.TextView.ListSepar
         <item name="android:layout_height">match_parent</item>
     </style>
 
-    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.DeviceDefault.Light">
+    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.DeviceDefault">
         <item name="android:windowBackground">@null</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowAnimationStyle">@null</item>
@@ -489,7 +489,7 @@ background and text color. See also android:style/Widget.Holo.TextView.ListSepar
         <item name="android:windowIsFloating">true</item>
     </style>
 
-    <style name="Theme.CallSubjectDialogTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+    <style name="Theme.CallSubjectDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
 
