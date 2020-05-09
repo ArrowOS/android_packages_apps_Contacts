@@ -256,5 +256,4 @@
     <!-- Highlight color used in places such as ripples -->
     <color name="control_highlight_color">#1A000000</color>
 
-    <color name="ic_contacts_launcher_background">#2458CA</color>
 </resources>
